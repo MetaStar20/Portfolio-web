@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jacob Martin | Web developer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Port</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <!-- <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Daniel Madrid</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Front-end developer, Full Stack developer, React Genius</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="CV.pdf" class="btn btn-outline-light mr-5">Show CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Web developer / Project Manager</h3>
+                    <p>
+                        <p id="subTitle">🎉 Thanks for visiting my profile. <br /></p>
+                        🤞 Who is Jacob?<br />
+                        <br />As a full stack developer, I have been collaborating with a variety of companies including small startups and big communities, which has made me intimately familiar with all the stages of the web lifecycle from the initial architecture to final deployment.<br />
+                        Recently, I have worked on several cryptocurrency projects piling up great knowledge on blockchain tech.<br /><br />
+                        🤞 Here are my skills set to reach 100% client satisfaction : <br />
+                        <br />🔹 <b>Web technology:</b><br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backend - Golang, Java, Node Js, Django, Flask, ASP.NET, Ruby on Rails <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frontend - React, Angular, Vue, TailwInd, Bootstrap<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P5.js, BarBajs, GSAP, HumbleScroll.js <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CMS - WordPress, Laravel <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database  - Firebase, Mongo, Elastic Search, MS SQL, SQL, Oracle <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DevOps  - Kubernete, Kafka, Docker, AWS, Vercel, Heroku  <br />
+                        <br />🔹 <b> MetaVerse: </b> <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pvp/P2E Game development <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D Map, Metaverse Land & Blockchain Integration  <br />
+                        <br />🔹 <b> Blockchain: </b> <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cosmos SDK, Cardano, Solana, Ethereum , BSC, Fantom <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dex, Defi, ICO, Staking, Trading Platform, Casino, NFT  <br />
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master's degree in computer engineering</h5>
+                            <p class="mb-2"><strong>Warsaw University of Technology</strong> | <small>2012 - 2017</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Full Stack Developer</h5>
+                            <p class="mb-2"><strong>Self Employed</strong> | <small>Mar 2021 - </small></p>
+                            <p>
+                            - Built data analysis and processing application using <b> Python </b> packages such as Pandas, Pygrametl, Scipy and etc
+                            <br/>- Created RPC-based service for reading large volume of data from PostgreSQL using <b> Golang </b>
+                            <br/>- Implemented RESTful APIs to connect frontend applications with backend services using <b> Go channels and goroutines.</b>
+                            <br/>- Developing and maintaining web based applications written in traditional <b>ASP.net and MVC4 </b> as well as heavily utilising Windows Workflow Foundation
+                            <br/> - Developed and maintained web applications using <b> Ruby on Rails</b>, JavaScript, HTML5, CSS3, MySQL/PostgreSQL.
+                            <br/> - Experienced  on <b> Kibana and Elastic search </b> to identify the <b>Kafka</b> message failure scenarios.
+                            <br/> - Used <b>Spring Boot</b> Actuator to monitor and manage the application in production environment.
+                            <br/> - Experienced in working with Spark eco system using <b> SCALA and HIVE</b> Queries on different data formats like Text file and parquet.
+                            <br/> - Extensive experience in loading and analyzing large datasets with <b>Hadoop</b> framework (MapReduce, HDFS, PIG, HIVE< Flume, Sqoop, SPARK, Impala, Scala), <b>NoSQL databases</b> like MongoDB, HBase, Cassandra.
+                            <br/> - Participated in code <b>reviews</b> when applicable and worked independently or collaboratively depending on task at hand.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web/Blockchain developer</h5>
+                            <p class="mb-2"><strong>GRUPO SSC</strong> | <small>July 2019 - Feb 2021</small></p>
+                            <p>
+                              - Custom Blockchain & Cryptocurrency Development, Maintenance with Cosmos SDK and Golang.
+                              <br/>- Development of Forex | Crypto Trading bot and Platform (Arbitrage, Copy Trading, Mev, Contract, Market Making...)
+                              <br/>- Development of vault smart contracts and unit tests, deployment scripts using Hardhat, Solidity, Ethers.js, Web3.js Chai, and Typescript.
+                              <br/>- ERC721, ERC1155 NFT contracts development with on-chain metadata
+                              <br/>- NFT Game contract development based on Metaverse and NFT lending & renting
+                              <br/>- Integrated Uniswap DEX protocol for the token swapping feature and Yearn Finance protocal integration
+                              <br/>- Deep understanding of large Defi lending and AMM protocols such as Compound and AAVE
+                              <br/>- Frontend integration to interact with smart contracts using Web3.js and Ethers.js
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Frontend developer</h5>
+                            <p class="mb-2"><strong>GRUPO SSC</strong> | <small>Aug 2017 - Mar 2019</small></p>
+                            <p>
+                            - Developed frontend using Bootstrap.js, Vue.js React.js, Angular.js, Node.js, D3.js, Backbone.js, where back end is JAX-RS REST webservice.
+                            <br/>- Developed and maintained Angular applications for the company’s clients, including web apps, mobile apps, and API integrations.
+                            <br/>- Collaborated with other developers to implement new features in existing projects as well as develop new products from scratch using modern technologies such as NodeJS/Express, React, Redux, TypeScript, RxJS observables etc.
+                            <br/>- Provided technical leadership by mentoring junior developers on best practices related to software development and project management.
+                            <br/>- Created reusable components, directives, and services in order to maintain consistency throughout the application
+                            <br/>- Design, build, and maintain high performance, reusable, reliable and testable VueJS/HTML/CSS code that connects with our RESTful API.
+                            <br/> - Solid understanding and extensive experience with version control tools like Git, SVN, Mercurial and agile, Scrum Methodologies
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Golang / Java / ASP.NET </h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python / Node.js / PHP</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">AOSP / Android App / IOS</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">React / Next / Vue / Angular</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Dex / DeFi / Trading Bot / NFT </h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Metaverse / WebGL / 3D</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Cosmos SDK / Docker / Kubernete / Kafka</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">BigQuery / SQL / NoSQL / Google Cloud</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Blockchain Engineering</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Bot Engineer</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Scripting & Automation</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Project manager</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Blockchain</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Web</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">WebGL / 3D</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-19.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-19.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.soulaether.xyz/">
+                        <h5 class="mt-4 text-center text-primary"> SOUL ETHER
+</h5>
+                    </a>
+                </div>
+
+
+
+
+             <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-20.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-20.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.pavia.io/">
+                        <h5 class="mt-4 text-center text-primary">A virtual world for NFT
+</h5>
+                    </a>
+                </div>
+                
+
+
+             <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-21.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-21.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.uandu.com/">
+                        <h5 class="mt-4 text-center text-primary">Find your next job
+</h5>
+                    </a>
+                </div>
+
+
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-16.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-16.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://affinitycreative.com">
+                        <h5 class="mt-4 text-center text-primary">Affinity Creative Group (GSAP)
+</h5>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-17.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-17.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://nexal.studio">
+                        <h5 class="mt-4 text-center text-primary">Nexal Studio (BarbaJS)</h5>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-18.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-18.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://http://tinkerbots.xyz/">
+                        <h5 class="mt-4 text-center text-primary">TinkerBot</h5>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-0.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-0.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://github.com/MetaStar20/WebSSH">
+                        <h5 class="mt-4 text-center text-primary">Web SSH</h5>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.welthungerhilfe.de/">
+                        <h5 class="mt-4 text-center text-primary">Healthcare</h5>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="http://coinrabbit.io/"><h5 class="mt-4 text-center text-primary">Crypto loaning site</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://fitnessfiends.com/"><h5 class="mt-4 text-center text-primary">Ongoing NFT project</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-11.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-11.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://axltoken.com/"><h5 class="mt-4 text-center text-primary">The Ultimate Decentralized Platform</h5></a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-12.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-12.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://casper-pad.io/"><h5 class="mt-4 text-center text-primary">First Casper-supported Launchpad</h5></a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://app.dexalot.com/"><h5 class="mt-4 text-center text-primary">DEX / Trade</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://metaverse-society.io/"><h5 class="mt-4 text-center text-primary">Metaverse | NFT</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="http://thechainfighters.com/"><h5 class="mt-4 text-center text-primary">Pixy-NFT minting page</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-7.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-7.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://mousehaunt.com/marketplace"><h5 class="mt-4 text-center text-primary">NFT marketplace</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-8.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-8.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="http://masterbrews.cards/mint"><h5 class="mt-4 text-center text-primary">NFT Minting Dapp</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-9.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-9.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.childgrowthmonitor.org/">
+                        <h5 class="mt-4 text-center text-primary">Child Growth Monitor</h5>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-10.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-10.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.suisse-view.ch/">
+                        <h5 class="mt-4 text-center text-primary">Travel Booking</h5>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-11.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-11.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://galactech.io/"><h5 class="mt-4 text-center text-primary">Smart Digital Transformation
+</h5></a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-14.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-14.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.loved.com"><h5 class="mt-4 text-center text-primary">Loved has changed to flyte</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-15.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-15.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://onigirimetaverse.com"><h5 class="mt-4 text-center text-primary">Onigiri Metaverse</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://otherside.xyz/"><h5 class="mt-4 text-center text-primary">OtherSide</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://shib.io"><h5 class="mt-4 text-center text-primary">Shiberse</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://webaverse.com"><h5 class="mt-4 text-center text-primary">Webaverse</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://archview-admin.web.app/app360"><h5 class="mt-4 text-center text-primary">Web360 Viewer</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://beau-coup.org"><h5 class="mt-4 text-center text-primary">BeauCoup 3D website</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://anvl.co"><h5 class="mt-4 text-center text-primary">AnVL</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-7.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-7.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.totem.earth/"><h5 class="mt-4 text-center text-primary">Totem.earth</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-8.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-8.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://thegameawards.dreamwave.live"><h5 class="mt-4 text-center text-primary">DreamWave</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-9.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-9.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://renaultespace.littleworkshop.fr"><h5 class="mt-4 text-center text-primary">3D visualizatio</h5></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" style="height: 300px">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/img-10.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img-10.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://peptone.io"><h5 class="mt-4 text-center text-primary">3D animation website</h5></a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
